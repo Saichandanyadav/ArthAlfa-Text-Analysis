@@ -1,0 +1,27 @@
+.statistics {
+  margin-bottom: 20px;
+  font-size: 18px;
+  background-color: #e7f3fe;
+  border-left: 6px solid #2196f3;
+  padding: 15px;
+  border-radius: 4px;
+  transition: transform 0.2s;
+  color: #333;
+}
+
+.statistics:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.count {
+  font-weight: bold;
+  color: #ff5722;
+}
+
+@media (max-width: 600px) {
+  .statistics {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
